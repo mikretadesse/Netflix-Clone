@@ -1,0 +1,128 @@
+/* =================== Footer Base =================== */
+.footer {
+  background-color: #141414;
+  color: #757575;
+  padding: 50px 5%;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* =============== Social Icons =============== */
+.social_icons {
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.social_icons a {
+  color: #757575;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social_icons a:hover {
+  color: #fff;
+}
+
+/* =========== Footer Links ============ */
+.footer_links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_links li {
+  margin-bottom: 8px;
+}
+
+.footer_links li a {
+  color: #757575;
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.3s;
+}
+
+.footer_links li a:hover {
+  color: #fff;
+}
+
+/* ===== Language Selector Wrapper ======= */
+.language_wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border: 1px solid #757575;
+  padding: 6px 12px;
+  width: 150px;
+  border-radius: 4px;
+  background-color: transparent;
+  transition: all 0.3s;
+}
+
+.language_wrapper:hover {
+  border-color: #fff;
+}
+
+/* Globe Icon */
+.globe_icon {
+  font-size: 14px;
+  margin-right: 6px;
+  color: #757575;
+  transition: color 0.3s;
+}
+
+.language_wrapper:hover .globe_icon {
+  color: #fff;
+}
+
+/* ================== Select ================== */
+.language_select {
+  background: transparent;
+  border: none;
+  color: #757575;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+}
+
+.language_select:hover {
+  color: #fff;
+}
+
+.language_select option {
+  background-color: #141414;
+  color: #fff;
+}
+
+/* ====== Service Code Button ======== */
+.service_code {
+  margin: 12px 0;
+  padding: 6px 9px;
+  background: transparent;
+  border: 1px solid #757575;
+  color: #757575;
+  cursor: pointer;
+  font-size: 13px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.service_code:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+/* ======= Copyright ======== */
+.copyright {
+  margin-top: 16px;
+  font-size: 12px;
+  color: #757575;
+}
+
+/* ===== Country Label ===== */
+.country {
+  font-size: 13px;
+  color: #757575;
+  text-align: center;
+}
